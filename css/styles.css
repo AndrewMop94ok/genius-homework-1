@@ -1,0 +1,235 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/saira-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/saira-v19-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v30-cyrillic_latin-900.woff2') format('woff2');
+}
+/* All colors */
+:root {
+  --primary-color-white: #ffffff;
+  --brand-color-light: #2b7fff;
+  --brand-color-dark: #011c44;
+  --secondary-color-dark: #4a4a4a;
+  --secondary-color-light: #747272;
+  --secondary-color-brand-dark: #011f4a;
+  --secondary-color-yellow: #ffd02b;
+}
+
+/* Base */
+body {
+  color: var(--brand-color-dark);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.main-button {
+  color: var(--primary-color-white);
+  font-weight: 600;
+  background-color: var(--brand-color-light);
+  border: 2px solid var(--brand-color-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+.main-button:hover {
+  color: var(--brand-color-dark);
+  background-color: transparent;
+}
+.callbutton-text {
+  color: var(--secondary-color-dark);
+  font-size: 12;
+  line-height: 1.5;
+}
+
+/* Link */
+.header-link {
+  color: var(--brand-color-dark);
+  text-decoration: none;
+  font-style: normal;
+}
+.header-link:hover {
+  font-weight: 700;
+  color: var(--brand-color-light);
+}
+
+/* Hero-title */
+.hero-title {
+  color: var(--brand-color-light);
+  font-family: 'Play';
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+/* Title-section */
+.aboutus-title {
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.aboutus-title span {
+  color: var(--brand-color-light);
+  text-transform: capitalize;
+}
+.title-section {
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+.title-section span {
+  color: var(--brand-color-light);
+}
+
+/* Aboutus section */
+.aboutus-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.aboutus-text span {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* whywe-section */
+.whywe-text {
+  line-height: 1.35;
+}
+
+/* Procedures-section */
+.procedures-text {
+  font-size: 22px;
+  line-height: 1.2;
+  color: var(--primary-color-white);
+}
+
+/* Howfind-section */
+.howfind-background {
+  background-color: var(--brand-color-dark);
+}
+.writebutton-adress {
+  color: var(--secondary-color-light);
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.writebutton-text {
+  color: var(--secondary-color-light);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.howfind-text {
+  color: var(--primary-color-white);
+  font-size: 22px;
+  font-weight: 600;
+}
+.howfind-text span {
+  color: var(--brand-color-light);
+}
+.user-info {
+  color: var(--primary-color-white);
+  font-size: 13px;
+}
+/* Footer */
+.footer-section {
+  background-color: var(--brand-color-dark);
+}
+.footer-link {
+  color: var(--primary-color-white);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Adress */
+.link-adress {
+  color: var(--primary-color-white);
+  font-size: 16px;
+  text-decoration: none;
+  font-style: normal;
+}
+.coryright {
+  color: var(--secondary-color-light);
+  font-size: 13px;
+  font-style: normal;
+}
